@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_a70q.mk
+    $(LOCAL_DIR)/derp_a70q.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_a70q-user \
-    aosp_a70q-userdebug \
-    aosp_a70q-eng
+    derp_a70q-user \
+    derp_a70q-userdebug \
+    derp_a70q-eng
