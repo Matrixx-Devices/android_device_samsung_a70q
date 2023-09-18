@@ -20,3 +20,10 @@ ro.sys.sdcardfs=true
 
 # Radio/RIL
 use.voice.path.for.pcm.voip=true
+
+# Display (Phase Offsets)
+debug.sf.use_phase_offsets_as_durations=1
+debug.sf.late.app.duration=16600000
+debug.sf.late.sf.duration=10500000
+debug.sf.frame_rate_multiple_threshold=120
+debug.adreno.disable_backend_affinity=true
