@@ -21,4 +21,6 @@ ro.sys.sdcardfs=true
 # Radio/RIL
 use.voice.path.for.pcm.voip=true
 
+# HWC
+ro.vendor.perf.scroll_opt=true
 
