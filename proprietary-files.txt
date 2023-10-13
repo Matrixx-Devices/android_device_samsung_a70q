@@ -1096,8 +1096,17 @@ vendor/bin/pm-service
 vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
 
+<<<<<<< HEAD
 # QTI
 vendor/etc/init/init.qti.qcv.rc
+=======
+# Protobuf
+vendor/lib64/libprotobuf-cpp-full-3.9.1.so
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
+
+# QCC
+vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
+>>>>>>> 5c40c10... spartan: Use prebuilt libprotobuf-cpp-lite-3.9.1.so & full one
 
 # Qualcomm MSM Interface
 vendor/bin/irsc_util
