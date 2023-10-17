@@ -922,7 +922,7 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
 
 # Keymaster
-vendor/lib64/libkeymaster_helper.so
+-vendor/lib64/libkeymaster_helper.so
 -vendor/lib64/libskeymaster4device.so
 
 # Listen
