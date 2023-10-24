@@ -48,7 +48,11 @@ function blob_fixup() {
         vendor/lib*/libwvhidl.so | vendor/lib*/libsnsapi.so | vendor/lib*/libsnsdiaglog.so | vendor/lib*/libssc.so | vendor/lib*/sensors.ssc.so | vendor/lib/mediadrm/libwvdrmengine.so)
             "${PATCHELF}" --replace-needed libprotobuf-cpp-lite-3.9.1.so libprotobuf-cpp-full-3.9.1.so "${2}"
             ;;
-    esac
+        vendor/lib*/libcrypto-compat.so)
+            "${PATCHELF}" --set-soname libcrypto-compat.so "${2}"
+            ;;  
+
+     esac
 }
 
 # Default to sanitizing the vendor folder before extraction
