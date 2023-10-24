@@ -316,14 +316,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.1.vendor \
     vendor.qti.hardware.perf@2.2.vendor
 
-<<<<<<< HEAD
+
 # Preopt SystemUI
  PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
-=======
+
 # Protobuf
 PRODUCT_PACKAGES += \
-    libprotobuf-cpp-full-3.9.1-vendorcompat
->>>>>>> 912bd0c... a70q: Build protobuf 3.9.1-vendorcompat
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
+
 
 # QCOM
 PRODUCT_COPY_FILES += \
