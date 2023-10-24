@@ -76,10 +76,6 @@ if [ -z "${SRC}" ]; then
     SRC=adb
 fi
 
-vendor/lib*/libcrypto-compat.so)
-            "${PATCHELF}" --set-soname libcrypto-compat.so "${2}"
-            ;;
-
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${AOSP_ROOT}" false "${CLEAN_VENDOR}"
 
