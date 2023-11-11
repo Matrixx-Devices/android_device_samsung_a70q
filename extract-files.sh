@@ -52,7 +52,11 @@ function blob_fixup() {
             "${PATCHELF}" --set-soname libcrypto-compat.so "${2}"
             ;;
 
+           vendor/lib64/libskeymaster4device.so)
+            "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
+            ;;
     esac
+
 }
 
 # Default to sanitizing the vendor folder before extraction
